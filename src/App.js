@@ -1,7 +1,8 @@
 import React from 'react';
-import { ReactComponent as IconFacebook } from './assets/icons/facebook.svg';
+import { ReactComponent as Logo } from './assets/icons/logo.svg';
+import { ReactComponent as IconLinkedIn } from './assets/icons/linkedin.svg';
 import { ReactComponent as IconTwitter } from './assets/icons/twitter.svg';
-import { ReactComponent as IconGithub } from './assets/icons/github.svg';
+import { ReactComponent as IconInstagram } from './assets/icons/instagram.svg';
 import "./App.css";
 
 class App extends React.Component {
@@ -10,17 +11,17 @@ class App extends React.Component {
       <div className="card">
         <div className="header">
           <div className="logo">
-            <a href=".">LOGO</a>
+            <a href="."><Logo className="icon" /></a>
           </div>
           <div className="social">
-            <a href="https://facebook.com" title="Facebook" target="_blank" rel="noopener noreferrer">
-              <IconFacebook className="icon" />
+            <a href="https://facebook.com/in/cashemireuniform" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+              <IconLinkedIn className="icon" />
             </a>
-            <a href="https://twitter.com" title="Twitter" target="_blank" rel="noopener noreferrer">
+            <a href="https://twitter.com/cashemireuniform" title="Twitter" target="_blank" rel="noopener noreferrer">
               <IconTwitter className="icon" />
             </a>
-            <a href="https://github.com/arkn98/coming-soon" title="GitHub" target="_blank" rel="noopener noreferrer">
-              <IconGithub className="icon" />
+            <a href="https://instagram.com/cashemireuniform" title="Instagram" target="_blank" rel="noopener noreferrer">
+              <IconInstagram className="icon" />
             </a>
           </div>
         </div>
@@ -29,12 +30,12 @@ class App extends React.Component {
             <h1>Get ready for the change.</h1>
             <p>Website coming soon. Please check back to know more. Shoot us an email if you're curious.</p>
           </div>
-          <a href="mailto:user@example.com">
+          <a href="mailto:info@cashemire.org">
             <div className="cta">Send us an email</div>
           </a>
         </div>
         <div className="footer">
-          <span>made by <a className="underlined" href="https://github.com/arkn98" target="_blank" rel="noopener noreferrer">arkn98</a> using <a className="underlined" href="https://reactjs.org/" title="ReactJS" target="_blank" rel="noopener noreferrer">React</a> | <a className="underlined" href="https://github.com/arkn98/coming-soon" title="GitHub repo" target="_blank" rel="noopener noreferrer">GitHub</a></span>
+          <span>made for <a className="underlined" href="https://cashemire.org" target="_blank" rel="noopener noreferrer">Cashemire</a></span>
         </div>
       </div>
     );

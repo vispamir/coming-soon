@@ -33,6 +33,10 @@
   transition: opacity 0.05s ease;
 }
 
+.logo .icon {
+  width: 6em;
+}
+
 .logo:hover {
   opacity: 0.75;
 }
