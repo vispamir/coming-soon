@@ -14,7 +14,7 @@ class App extends React.Component {
             <a href="."><Logo className="icon" /></a>
           </div>
           <div className="social">
-            <a href="https://facebook.com/in/cashemireuniform" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+            <a href="https://linkedin.com/in/cashemireuniform" title="LinkedIn" target="_blank" rel="noopener noreferrer">
               <IconLinkedIn className="icon" />
             </a>
             <a href="https://twitter.com/cashemireuniform" title="Twitter" target="_blank" rel="noopener noreferrer">
